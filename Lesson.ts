@@ -5,23 +5,23 @@
 
 // ===== 1. TEMEL TİPLER (BASIC TYPES) =====
 
-// A. Primitive Types (Temel Tipler)
-let isim: string = "Ahmet";       // Metin
-let yas: number = 30;            // Sayı
-let aktifMi: boolean = true;     // Mantıksal
-let tanimsiz: undefined;         // Tanımsız
-let bosDeger: null = null;       // Boş Değer
+// A. Primitive Types (Temel Tipler) (5)
+let isim: string = "Ahmet";       // String
+let yas: number = 30;            // Number
+let aktifMi: boolean = true;     // Bool (True or False)
+let tanimsiz: undefined;         // Undefined
+let bosDeger: null = null;       // NULL
 
 // B. Type Inference (Tip Çıkarımı)
 let sehir = "İstanbul";          // Otomatik string tipi
 // sehir = 34;                   // HATA: Tip uyuşmazlığı
 
-// C. Explicit Types (Açık Tip Tanımlama)
+// C. Explicit Types 
 let telefon: number;
 telefon = 5551234567;
 // telefon = "5551234567";       // HATA
 
-// D. Union Types (Çoklu Tip)
+// D. Union Types 
 let id: string | number = "ABC123";
 id = 123;                        // Geçerli
 // id = true;                    // HATA
